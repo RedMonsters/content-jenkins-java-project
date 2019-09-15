@@ -1,4 +1,5 @@
 pipeline {
+  git credentialsId: 'satyasai', url: 'https://github.com/RedMonsters/content-jenkins-java-project.git'
   agent none
 
   environment {
